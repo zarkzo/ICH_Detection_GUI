@@ -12,18 +12,18 @@
 
 ## 📋 Table of Contents
 
-- [Overview](#overview)
-- [Features](#features)
-- [System Architecture](#system-architecture)
-- [Installation](#installation)
-- [Usage](#usage)
-- [API Documentation](#api-documentation)
-- [Model Information](#model-information)
-- [Project Structure](#project-structure)
-- [Troubleshooting](#troubleshooting)
-- [Collaboration](#collaboration)
-- [Disclaimer](#disclaimer)
-- [Citation](#citation)
+- Overview
+- Features
+- System Architecture
+- Installation
+- Usage
+- API Documentation
+- Model Information
+- Project Structure
+- Troubleshooting
+- Collaboration
+- Disclaimer
+- Citation
 
 ---
 
@@ -741,3 +741,4 @@ This project is licensed for **Academic Use Only**. See LICENSE file for details
 **Made with ❤️ for advancing medical AI research**
 
 🧠 **Institut Teknologi Sumatra** × **Universiti Malaysia Perlis**
+
