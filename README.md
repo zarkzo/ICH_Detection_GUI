@@ -1,4 +1,4 @@
-# 🧠 ICH Detection System - AI-Based Intracranial Hemorrhage Detection
+# 🧠 ICH Detection System - GUI 
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.12+-orange.svg)](https://www.tensorflow.org/)
@@ -741,4 +741,5 @@ This project is licensed for **Academic Use Only**. See LICENSE file for details
 **Made with ❤️ for advancing medical AI research**
 
 🧠 **Institut Teknologi Sumatra** × **Universiti Malaysia Perlis**
+
 
