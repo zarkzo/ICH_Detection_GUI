@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ICH Detection System</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/dark-mode.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <span class="logo-icon">🧠</span>
+          <span class="logo-text">ICH Detection</span>
+        </div>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link active">Home</a>
+          <a href="detection.html" class="nav-link">Detection</a>
+          <a href="#research" class="nav-link">Research</a>
+          <button
+            id="theme-toggle"
+            class="theme-toggle"
+            aria-label="Toggle dark mode"
+          >
+            <span class="theme-icon">🌙</span>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1 class="hero-title">Intracranial Hemorrhage Detection</h1>
+        <p class="hero-subtitle">
+          AI-powered multilabel classification for brain CT scans
+        </p>
+        <p class="hero-description">
+          Advanced deep learning technology for rapid analysis of intracranial
+          hemorrhages
+        </p>
+        <a href="detection.html" class="cta-button">
+          Try Detection
+          <span class="arrow">→</span>
+        </a>
+        <p class="disclaimer">
+          ⚠️ For academic research and demonstration purposes only
+        </p>
+      </div>
+    </section>
+
+    <!-- About ICH Section -->
+    <section class="about-section">
+      <div class="section-container">
+        <h2 class="section-title">What is Intracranial Hemorrhage?</h2>
+        <p class="section-text">
+          Intracranial hemorrhage (ICH) is bleeding within the skull, a critical
+          medical emergency requiring rapid diagnosis and treatment. ICH can
+          occur in different locations within the brain, each with distinct
+          clinical implications.
+        </p>
+
+        <div class="ich-types">
+          <div class="ich-card">
+            <h3>Intraparenchymal</h3>
+            <p>
+              Bleeding within brain tissue, often caused by hypertension or
+              trauma
+            </p>
+          </div>
+          <div class="ich-card">
+            <h3>Intraventricular</h3>
+            <p>
+              Bleeding into the brain's ventricles, affecting cerebrospinal
+              fluid circulation
+            </p>
+          </div>
+          <div class="ich-card">
+            <h3>Subarachnoid</h3>
+            <p>
+              Bleeding in the space between the brain and surrounding membrane
+            </p>
+          </div>
+          <div class="ich-card">
+            <h3>Subdural</h3>
+            <p>Blood collection between the brain and its outermost covering</p>
+          </div>
+          <div class="ich-card">
+            <h3>Epidural</h3>
+            <p>
+              Bleeding between the skull and the outer membrane of the brain
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Research Section -->
+    <section id="research" class="research-section">
+      <div class="section-container">
+        <h2 class="section-title">Our Approach</h2>
+        <p class="section-text">
+          This system uses advanced deep learning techniques to analyze brain CT
+          scans and detect multiple types of intracranial hemorrhages
+          simultaneously.
+        </p>
+
+        <div class="approach-grid">
+          <div class="approach-card">
+            <div class="approach-icon">🔬</div>
+            <h3>Medical Image Processing</h3>
+            <p>
+              DICOM files are processed using Hounsfield Unit windowing with
+              three specialized windows (Blood, Brain, Bone) to create optimal
+              input for the neural network.
+            </p>
+          </div>
+
+          <div class="approach-card">
+            <div class="approach-icon">🧠</div>
+            <h3>Deep Learning Model</h3>
+            <p>
+              A convolutional neural network trained on thousands of CT scans
+              performs multilabel classification to identify all six types of
+              hemorrhages with confidence scores.
+            </p>
+          </div>
+
+          <div class="approach-card">
+            <div class="approach-icon">⚡</div>
+            <h3>Rapid Analysis</h3>
+            <p>
+              The system processes CT scans in seconds, providing immediate
+              feedback that can assist in clinical decision-making during
+              critical situations.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="collaboration-info">
+          <h3>🤝 Collaborative Research Project</h3>
+          <p class="collaboration-partners">
+            <strong>Institut Teknologi Sumatra</strong> ×
+            <strong>Universiti Malaysia Perlis</strong>
+          </p>
+          <p class="collaboration-note">
+            This project is a collaborative academic research initiative between
+            Institut Teknologi Sumatra (Indonesia) and Universiti Malaysia
+            Perlis (Malaysia).
+          </p>
+        </div>
+        <div class="footer-divider"></div>
+        <p>© 2024 ICH Detection System | Academic Research Project</p>
+        <p class="footer-disclaimer">
+          ⚠️ This system is for research and demonstration purposes only. Not
+          intended for clinical diagnosis or patient care decisions.
+        </p>
+      </div>
+    </footer>
+    <script src="js/theme.js"></script>
+  </body>
+</html>
